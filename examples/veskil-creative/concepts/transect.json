@@ -1,0 +1,12 @@
+{
+  "differentiation": "Chosen over a folded V, an observation frame and a wordmark with index spur for its stronger connection to field movement. No trademark clearance performed.",
+  "id": "transect",
+  "provenance": [
+    "Original vector contours and custom outline lettering.",
+    "comparison-sha256 1afb14e48687ca56781d94432c41d6474f3aaec8737432b926d8d87fb251e7d3"
+  ],
+  "rationale": "An open contour corridor evokes walking a survey route and keeping one continuous record.",
+  "title": "Transect",
+  "tradeoffs": "At small sizes prefer the mark. Use reverse on dark backgrounds. Abstract contour geometry may evoke water without notebook context.",
+  "visual_system": "Two original cubic forms in pine and spruce with custom outlined lettering and warm paper."
+}

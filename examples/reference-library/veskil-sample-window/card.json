@@ -1,0 +1,18 @@
+{
+  "asset": {
+    "name": "logo.svg",
+    "sha256": "e92940420b59eee2828d358b00c6666740ce4e3a5e5568da575399c3f8abacff"
+  },
+  "id": "veskil-sample-window",
+  "industry": "stationery",
+  "mark_type": "symbol",
+  "observation": "Dos esquinas desplazadas enmarcan la observación.",
+  "rights": "Diseño original creado para el ejemplo ficticio de Veskil. Referencia de estudio.",
+  "source": "BrandForge Veskil demo / examples/veskil-creative/creative/sample-window/r1/mark.svg",
+  "storage": "owned",
+  "techniques": [
+    "framing",
+    "negative-space"
+  ],
+  "title": "Sample Window"
+}

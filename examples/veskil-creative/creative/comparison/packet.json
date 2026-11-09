@@ -1,0 +1,17 @@
+{
+  "files": {
+    "comparison.png": "9a257c5e9c5ce5d692ed2d5202eb422b3d3e5cf37ee94ea9e35665cd4033bd44",
+    "comparison.svg": "1becaa803d803c7bfa85150b5d8252106db4f054bb137c2ee87f7ddff9832196",
+    "shortlist.json": "b484c0f3129a4ea6d69faa39aefbe2ad7d32fb05b4f079d1f721d85af94915e0"
+  },
+  "inputs": {
+    "creative.json": "b484c0f3129a4ea6d69faa39aefbe2ad7d32fb05b4f079d1f721d85af94915e0",
+    "folded-v": "735df0fb73a08717596f636cafc70f7e4dc3121e9aae169c85a38b421155af5c",
+    "index-type": "7b7a4f053b73658c6b0d5316d08327607f03db90392fce8f5392c105266c6efe",
+    "sample-window": "351c788ae7dba308334922411e2c7fbae42f333992e0f2aa9cb75c385b5224b5",
+    "transect": "455ecf7b4203c1992db3d47df42477c119589e299dfe6c042c5704e085ebe3a7"
+  },
+  "kind": "comparison",
+  "renderer": "rsvg-convert version 2.62.1\n\nlibraries used:\n  cairo 1.18.4\n  pango 1.58.2\n  harfbuzz 14.5.0\n  fontconfig 2.18.3",
+  "schema_version": "0.2"
+}

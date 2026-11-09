@@ -1,0 +1,22 @@
+{
+  "brief_sha256": "d813f45ae877bdfb4bde8d6aaede3d6d0d46917407956f0edfbed9ca15327d8d",
+  "concept_approval": {
+    "by": "Fictional benchmark reviewer",
+    "date": "2026-11-08",
+    "evidence": "Simulated selection of Transect from the four rendered candidates.",
+    "simulated": true
+  },
+  "concept_id": "transect",
+  "concept_sha256": "a3d264627bbfaab1a6b1e9d0886378ed492d9a7ae4aa5d2190aceae9c2dbac84",
+  "final_approval": {
+    "decision": {
+      "by": "Fictional benchmark reviewer",
+      "date": "2026-11-08",
+      "evidence": "Simulated final approval of the inspected Veskil creative kit.",
+      "simulated": true
+    },
+    "review_sha256": "f451d0361e3990e47d397c49cb0eea2109954dc447ad37a8ea1ded117fc0f305"
+  },
+  "revision": 3,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "asset": {
+    "name": "logo.svg",
+    "sha256": "bad756d626924a0b80616c7f7c03ad4d4b91b1c4bd14f1f0a3ade0ac5c5205b9"
+  },
+  "id": "veskil-index-type",
+  "industry": "stationery",
+  "mark_type": "wordmark",
+  "observation": "Un pequeño acento funciona como una marca de índice.",
+  "rights": "Diseño original creado para el ejemplo ficticio de Veskil. Referencia de estudio.",
+  "source": "BrandForge Veskil demo / examples/veskil-creative/creative/index-type/r1/mark.svg",
+  "storage": "owned",
+  "techniques": [
+    "custom-lettering",
+    "index-mark"
+  ],
+  "title": "Index Type"
+}

@@ -10,6 +10,9 @@ from xml.etree.ElementTree import ParseError
 
 from contracts import digest, json_bytes, require, validate
 from contrast import audit
+import creative
+import image_input
+import reference_library
 import svg
 
 REVIEW_DOCS = ("guidelines.md", "print.md", "visual-review.md")
@@ -68,8 +71,16 @@ def kit_files(project):
         files[doc] = read(project / doc)
         require(files[doc].decode("utf-8").strip(), f"Empty review document: {doc}")
     colors = {color.lower() for color in tokens["colors"].values()}
-    for name in MASTERS:
-        master = read(project / "source" / f"{name}.svg")
+    concept_record = validate("concept", concept)
+    state_path = project / creative.STATE
+    if any(entry.startswith("comparison-sha256 ") for entry in concept_record["provenance"]):
+        require(state_path.exists(), "Approved creative comparison requires creative.json")
+    if state_path.exists() or state_path.is_symlink():
+        masters, evidence = creative.release_inputs(project, spec["concept_id"], concept_record)
+        files.update(evidence)
+    else:
+        masters = {name: read(project / "source" / f"{name}.svg") for name in MASTERS}
+    for name, master in masters.items():
         _, shapes = svg.parse(master)
         require(all(s.get("fill").lower() in colors | {"none"} for s in shapes),
                 f"Undeclared brand fill in {name}.svg")
@@ -159,6 +170,30 @@ def main():
             command.add_argument(path, type=Path)
         if name == "verify":
             command.add_argument("--released", action="store_true")
+    for name in ("render", "present", "applications"):
+        command = commands.add_parser(name)
+        command.add_argument("project", type=Path)
+        if name != "present":
+            command.add_argument("candidate")
+        if name == "render":
+            command.add_argument("--round", type=int)
+        command.add_argument("output", type=Path)
+    image_command = commands.add_parser("image-reference")
+    image_command.add_argument("file", type=Path)
+    for option in ("provider", "observation", "rights"):
+        image_command.add_argument(f"--{option}", required=True)
+    add = commands.add_parser("library-add")
+    add.add_argument("library", type=Path)
+    add.add_argument("card", type=Path)
+    add.add_argument("--asset", type=Path)
+    search = commands.add_parser("library-search")
+    search.add_argument("library", type=Path)
+    search.add_argument("query", nargs="?", default="")
+    for option in ("industry", "mark-type", "technique"):
+        search.add_argument(f"--{option}", default="")
+    reference = commands.add_parser("library-reference")
+    reference.add_argument("library", type=Path)
+    reference.add_argument("id")
     args = parser.parse_args()
     try:
         if args.command == "fingerprint":
@@ -170,6 +205,22 @@ def main():
             reports = audit(validate("design-tokens", read(args.file)))
             print(json_bytes(reports).decode("utf-8"), end="")
             return int(any(not report["pass"] for report in reports))
+        elif args.command == "image-reference":
+            reference = image_input.record(args.file, args.provider, args.observation, args.rights)
+            print(json_bytes(reference).decode("utf-8"), end="")
+        elif args.command == "library-add":
+            entry_id, files = reference_library.entry_files(read(args.card), args.asset)
+            args.library.mkdir(exist_ok=True)
+            require(not args.library.is_symlink(), "Use a regular library directory")
+            write_new(args.library / entry_id, files)
+            print(entry_id)
+        elif args.command == "library-search":
+            matches = reference_library.search(args.library, args.query, args.industry,
+                                               args.mark_type, args.technique)
+            print(json_bytes(matches).decode("utf-8"), end="")
+        elif args.command == "library-reference":
+            record = reference_library.reference(args.library, args.id)
+            print(json_bytes(record).decode("utf-8"), end="")
         elif args.command == "build":
             files = kit_files(args.project)
             files[MANIFEST] = manifest(files)
@@ -178,6 +229,15 @@ def main():
         elif args.command == "verify":
             files = verified_files(args.kit, args.released)
             print(digest(files[MANIFEST]))
+        elif args.command in {"render", "present", "applications"}:
+            if args.command == "render":
+                packet = creative.render(args.project, args.candidate, args.round)
+            elif args.command == "present":
+                packet = creative.present(args.project)
+            else:
+                packet = creative.applications(args.project, args.candidate)
+            write_new(args.output, packet)
+            print(digest(packet[creative.PACKET]))
         else:
             files = verified_files(args.review)
             receipt = read(args.spec)

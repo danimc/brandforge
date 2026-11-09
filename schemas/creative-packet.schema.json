@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.2"
+    },
+    "kind": {
+      "enum": [
+        "proof",
+        "comparison",
+        "applications"
+      ]
+    },
+    "renderer": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minProperties": 1
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minProperties": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "renderer",
+    "inputs",
+    "files"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+# Visual Evaluation Engine
+
+For each candidate, author an iteration note and use `render PROJECT ID OUTPUT` to create a fresh proof folder. The renderer places artwork into 16, 32, 64 and 128 px artboard slots. It tests primary on light and dark, plus black and reverse. Inspect actual PNGs at native scale with an image-capable host or ask the user to inspect. Record what was actually opened, who reviewed it, and how. The local renderer is optional to install, but creative delivery needs render evidence. Work in draft if nobody can inspect the pixels.
+
+Separate technical observations, such as a malformed path or undeclared palette role, from visual judgment about optical weight, letter spacing, generic appearance or fit. Check the amount of paint visible at small sizes, clipping, closed counters, recognition and hierarchy. A primary artwork can fail on a dark surface and remain usable with a documented reverse variant. Try the light and dark combinations in their intended roles.
+
+For the selected direction, record `inspection.json` beside each round and bind it to the exact proof packet hash. Describe composition, scale, monochrome and the next action. Record at least one prior decision of `refine`. Create a new round with a concrete design change and render again. Only mark the current round `ready` after actually inspecting its output. If there is a new revision, update the candidate pointer and regenerate its proof and applications. Keep other candidates and the approved comparison unchanged.
+
+Automation checks SVG structure, manifest contents and the consistency of inspection records. It cannot check whether a reviewer actually looked at an image. Proof slot size describes the artboard’s longest edge, and a wordmark will occupy fewer pixels vertically than a square symbol.

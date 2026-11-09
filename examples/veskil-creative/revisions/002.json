@@ -1,0 +1,13 @@
+{
+  "brief_sha256": "d813f45ae877bdfb4bde8d6aaede3d6d0d46917407956f0edfbed9ca15327d8d",
+  "concept_approval": {
+    "by": "Fictional benchmark reviewer",
+    "date": "2026-11-08",
+    "evidence": "Simulated selection of Transect from the four rendered candidates.",
+    "simulated": true
+  },
+  "concept_id": "transect",
+  "concept_sha256": "a3d264627bbfaab1a6b1e9d0886378ed492d9a7ae4aa5d2190aceae9c2dbac84",
+  "revision": 2,
+  "schema_version": "1.0"
+}

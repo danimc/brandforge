@@ -1,18 +1,17 @@
 ---
 name: brandforge
-description: Design or refresh a brand identity from a brief through strategy, concept selection, original editable SVG marks, typography, accessible color roles, and a validated brand kit. Use when a user wants a logo and supporting identity system, brand guidelines, or production handoff assets.
+description: Create, explore, critique, refine, or deliver an original brand identity. Use for brand strategy, multiple logo directions, editorial concept sheets, editable SVG masters, digital and print applications, or an approved brand kit.
 metadata:
-  version: "1.0.1"
+  version: "0.2.0"
 ---
 
 # Brandforge
 
-Resolve bundled references and scripts relative to this skill directory. Use Python 3.9+ for the CLI and keep project files in the user’s working directory. Record approvals from explicit user responses in the host chat or approval UI.
+Resolve bundled scripts and references from this skill directory. Keep the brief, assets, reviews and approvals in the user's project. Resume from those files.
 
-1. **Brief.** Read [strategy](references/brand-strategy.md). Create a project folder with `brief.json` and a revisioned `brand-spec.json` using the [contracts](references/deliverables.md). Reopen the files on resume and check the current approval scope.
-2. **Directions.** Read [creative direction](references/creative-direction.md). Present distinct directions with rationale, strengths, tradeoffs and differentiation evidence. Persist the options. Stop for explicit selection of a concept ID and record the response with the input fingerprints. Never trace or imitate an existing mark. Redesign if resemblance is material.
-3. **Build.** Apply [SVG design](references/svg-design.md), [typography](references/typography.md), [color](references/color.md), and [accessibility](references/accessibility.md). Create editable masters, tokens, guidelines and print specifications. Use [optional integrations](references/integrations.md) when appropriate.
-4. **Review.** Build a review kit with `python3 -B <skill-dir>/scripts/brandforge.py build PROJECT REVIEW_DIR`. Verify it, render the marks at intended sizes and inspect all variants, verify type and usage rights, and record checks and open issues in the review files. Rebuild in a fresh directory after changes. Present the exact kit and manifest fingerprint, then stop for explicit final delivery approval.
-5. **Deliver.** Record the approval in the next spec revision. Release only the approved review bytes with `release` and verify with `verify --released`. Provide the verified kit, editable masters, guidelines, and any outstanding production conditions.
+1. **Explore.** Read [strategy](references/brand-strategy.md) and [exploration](references/creative-direction.md). Research relevant category cues with available tools. Write 8–12 distinct hypotheses, shortlist 3–6 with reasons, and choose a vector-first, image-assisted or hybrid approach. Preserve references and rights.
+2. **Craft.** Read [SVG craft](references/svg-design.md) and consult [type](references/typography.md) and [color](references/color.md) as needed. Create original vectors. Render the candidates and present a [comparison](references/presentation-studio.md). Stop for explicit approval of a direction. Record the exact board fingerprint with the choice.
+3. **Refine.** Follow [visual evaluation](references/visual-evaluation.md). Generate → render → inspect → critique → refine → re-render. Create a new round for the requested candidate and retain earlier evidence. Keep visual findings separate from technical checks. Prepare horizontal, stacked and standalone marks, variants, and relevant applications. Use [optional integrations](references/integrations.md) when useful.
+4. **Deliver.** Follow the [project and delivery contract](references/deliverables.md). Build and verify a review kit. Present its exact fingerprint and stop for explicit final approval. Record the next brand-spec revision, release the approved bytes and verify the released kit.
 
-Preserve prior spec revisions in the project. Changes to the brief or selected board require a new concept decision. Changes to review bytes require new final approval. Never manufacture approval or treat a tool pass as trademark clearance. The fictional example contains simulated approvals for tests only.
+Use references to understand design principles. Never trace or imitate an existing mark. A successful build checks evidence and files. Originality, aesthetics, approval authenticity and clearance require separate judgment.

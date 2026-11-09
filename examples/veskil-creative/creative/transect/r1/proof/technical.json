@@ -1,0 +1,20 @@
+{
+  "lockup": {
+    "sha256": "efd526391fc02f6c25b243349a408ae4921c7f5c35f809515a7cee5eef9e2c01",
+    "shape_count": 8,
+    "static_svg_profile": "pass",
+    "view_box": "0 0 300 73"
+  },
+  "mark": {
+    "sha256": "d030d204167a3b02c33ec0b14a2761f33b453143da6594e171045ac2a7f2b373",
+    "shape_count": 2,
+    "static_svg_profile": "pass",
+    "view_box": "0 0 96 73"
+  },
+  "stacked": {
+    "sha256": "65fa4948ca8422eadd1db214d611643c3fb6999ed58a047cdd526cd17390071d",
+    "shape_count": 8,
+    "static_svg_profile": "pass",
+    "view_box": "0 0 184 120"
+  }
+}

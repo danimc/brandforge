@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "packet_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "reviewer": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "method": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "composition": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "scale": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "monochrome": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "decision": {
+      "enum": [
+        "refine",
+        "ready"
+      ]
+    },
+    "next_action": {
+      "type": "string",
+      "pattern": "\\S"
+    }
+  },
+  "required": [
+    "packet_sha256",
+    "reviewer",
+    "method",
+    "composition",
+    "scale",
+    "monochrome",
+    "decision",
+    "next_action"
+  ],
+  "additionalProperties": false
+}

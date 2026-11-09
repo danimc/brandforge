@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "change": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "provenance": {
+      "type": "string",
+      "pattern": "\\S"
+    }
+  },
+  "required": [
+    "change",
+    "provenance"
+  ],
+  "additionalProperties": false
+}

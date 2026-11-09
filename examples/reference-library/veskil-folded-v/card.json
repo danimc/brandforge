@@ -1,0 +1,18 @@
+{
+  "asset": {
+    "name": "logo.svg",
+    "sha256": "39b7c05217d8225a16b1b67e087074caff5fe395f005ef60c65f4964131dacda"
+  },
+  "id": "veskil-folded-v",
+  "industry": "stationery",
+  "mark_type": "monogram",
+  "observation": "La unión abierta mantiene el gesto de plegado.",
+  "rights": "Diseño original creado para el ejemplo ficticio de Veskil. Referencia de estudio.",
+  "source": "BrandForge Veskil demo / examples/veskil-creative/creative/folded-v/r1/mark.svg",
+  "storage": "owned",
+  "techniques": [
+    "fold",
+    "negative-space"
+  ],
+  "title": "Folded V"
+}

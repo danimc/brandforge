@@ -1,0 +1,10 @@
+{
+  "composition": "Upper and lower ribbons form a route, but the left entrance and central bend are less even than the outer gap. The upper arc can read as a wave.",
+  "decision": "refine",
+  "method": "Opened the actual librsvg PNG of the symbol and horizontal lockup at native pixel scale; compared it to the other three candidates on the concept atlas.",
+  "monochrome": "Black and reverse retain the idea. Primary ink disappears on the pine background. Reserve the reversed version for dark grounds.",
+  "next_action": "Open the left and middle corridor, redistribute the band weight, then inspect the rerender on the same backgrounds.",
+  "packet_sha256": "455ecf7b4203c1992db3d47df42477c119589e299dfe6c042c5704e085ebe3a7",
+  "reviewer": "Codex visual benchmark review",
+  "scale": "At 16 px the two bands become close near the left edge. The lockup label is hard to read at 32 px. Keep the mark and lockup minimum sizes separate."
+}

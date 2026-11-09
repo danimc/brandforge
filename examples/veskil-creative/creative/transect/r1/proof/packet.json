@@ -1,0 +1,22 @@
+{
+  "files": {
+    "lockup.png": "477adee54006c5f2b974e83c3ffc0dfd6241cd3069bcd46d95f81fec7241209a",
+    "lockup.svg": "20f68f9427b86aa63d7bfcae66d92f757d5886e94df5198288156227cf35a281",
+    "mark.png": "11b90e17c08162223782933a83f5518760e42c88b128e6e35b994429e027e07c",
+    "mark.svg": "91f9bc40f99f0b7fe3d7bae9c4ed3c7de18269d7b41ed92ae8f4542fc899f655",
+    "stacked.png": "fabac07fe21c0197f6cfbb5198cf3824b1b0b82789492482ad5b67492b12cf24",
+    "stacked.svg": "779e6e69372eb27d91e6d0c63af7e1dce87b64cd3ccd6586259b02676e4a0986",
+    "technical.json": "a56cc1e5ab1dc444581066cc91b354595e58b6f252754e5e9660bdf3f1b27137"
+  },
+  "inputs": {
+    "brief.json": "dcdeb3c5c1ebd536903a311a4e1e8278788c91769f6421aa52e90b242a00433a",
+    "grounds.json": "1927a1031590d8994eaa467d1835db92f8261fb89ce1ab0740b3051ba54d5741",
+    "iteration.json": "47387d22aaea7d1bf4b009996cf2153a5cd8e2c3203a6a4bc25d479910e7f355",
+    "lockup.svg": "efd526391fc02f6c25b243349a408ae4921c7f5c35f809515a7cee5eef9e2c01",
+    "mark.svg": "d030d204167a3b02c33ec0b14a2761f33b453143da6594e171045ac2a7f2b373",
+    "stacked.svg": "65fa4948ca8422eadd1db214d611643c3fb6999ed58a047cdd526cd17390071d"
+  },
+  "kind": "proof",
+  "renderer": "rsvg-convert version 2.62.1\n\nlibraries used:\n  cairo 1.18.4\n  pango 1.58.2\n  harfbuzz 14.5.0\n  fontconfig 2.18.3",
+  "schema_version": "0.2"
+}

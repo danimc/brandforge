@@ -1,0 +1,139 @@
+{
+  "applications": {
+    "digital_copy": "Field notebooks built around observations that are easy to record and hand over.",
+    "digital_title": "Find the last stop.",
+    "print_copy": "01  Mark the station.  02  Note conditions.  03  Index the observation.",
+    "print_title": "Record the next stop"
+  },
+  "brief_sha256": "d813f45ae877bdfb4bde8d6aaede3d6d0d46917407956f0edfbed9ca15327d8d",
+  "candidates": {
+    "folded-v": 1,
+    "index-type": 1,
+    "sample-window": 1,
+    "transect": 1
+  },
+  "context": "Volunteer survey leads need to record and find entries in poor light. Working category cues are notebook tabs, field coordinates and contour maps. Market cues are hypotheses for a fictional exercise; no clearance search was performed.",
+  "grounds": {
+    "dark": "#12352B",
+    "light": "#F8F1E2"
+  },
+  "hypotheses": [
+    {
+      "category": "Organic abstract",
+      "composition": "Two masses bend around a rising open corridor; use a restrained low-contrast secondary pine.",
+      "decision": "shortlisted",
+      "id": "transect",
+      "metaphor": "An unbroken survey route reads as a pale channel between two contour forms.",
+      "personality": "Calm, observant, field-tested.",
+      "reason": "Conveys navigation without using a literal pin or leaf. Test negative-space separation.",
+      "title": "Transect"
+    },
+    {
+      "category": "Monogram",
+      "composition": "Pair a tall folded stroke with a tapered counterstroke and a real open joint.",
+      "decision": "shortlisted",
+      "id": "folded-v",
+      "metaphor": "Two folded paper edges meet at the angle of a penciled check.",
+      "personality": "Practical, condensed, direct.",
+      "reason": "A useful counterpoint to the organic direction. Readability is more immediate, distinctiveness may be weaker.",
+      "title": "Folded V"
+    },
+    {
+      "category": "Negative space",
+      "composition": "Two open corner shapes offset along a diagonal with a clear central void.",
+      "decision": "shortlisted",
+      "id": "sample-window",
+      "metaphor": "Two offset notebook brackets frame the observation that matters.",
+      "personality": "Quiet, deliberate, archival.",
+      "reason": "Makes the recording frame visible and tests whether it reads beyond a generic focus icon.",
+      "title": "Sample Window"
+    },
+    {
+      "category": "Wordmark",
+      "composition": "Draw the word as a low silhouette, adding an index spur to the K.",
+      "decision": "shortlisted",
+      "id": "index-type",
+      "metaphor": "A small right-facing spur behaves like a handwritten index tick.",
+      "personality": "Editorial, useful, composed.",
+      "reason": "Tests whether name recognition can carry the identity. Compact symbol remains an open issue.",
+      "title": "Index Type"
+    },
+    {
+      "category": "Pictorial",
+      "composition": "Two opposing tickets connected by a visible seam.",
+      "decision": "discarded",
+      "id": "handoff-pair",
+      "metaphor": "Two tags overlap like records passed between volunteers.",
+      "personality": "Sociable, methodical.",
+      "reason": "The overlap tends to read as a collaboration or messaging product.",
+      "title": "Handoff Pair"
+    },
+    {
+      "category": "Modular",
+      "composition": "Three nodes in offset rows with changing scale.",
+      "decision": "discarded",
+      "id": "station-dots",
+      "metaphor": "Three dots mark repeated stops along a survey line.",
+      "personality": "Systematic, light.",
+      "reason": "At 16 pixels the emphasis hierarchy could collapse into a generic menu or network.",
+      "title": "Station Dots"
+    },
+    {
+      "category": "Expressive",
+      "composition": "Sweep one soft wave under a hand-drawn block.",
+      "decision": "discarded",
+      "id": "waterline",
+      "metaphor": "Ink remains legible across a wet page.",
+      "personality": "Weathered, energetic.",
+      "reason": "Overweights aquatic habitats and risks reading as a water brand.",
+      "title": "Waterline"
+    },
+    {
+      "category": "Emblem",
+      "composition": "Compact enclosed rectangle with a tab at its crown.",
+      "decision": "discarded",
+      "id": "tab-seal",
+      "metaphor": "A tabbed field label carries date and site.",
+      "personality": "Official, organized.",
+      "reason": "An enclosure and metadata would crowd the cover stamp.",
+      "title": "Tab Seal"
+    },
+    {
+      "category": "Gestural",
+      "composition": "One fast diagonal and short counterstroke.",
+      "decision": "discarded",
+      "id": "margin-tick",
+      "metaphor": "A pencil mark confirms that a stop is recorded.",
+      "personality": "Immediate, human.",
+      "reason": "A check is crowded territory and can imply certification.",
+      "title": "Margin Tick"
+    },
+    {
+      "category": "Layered",
+      "composition": "Stack translucent page silhouettes at close intervals.",
+      "decision": "discarded",
+      "id": "echo-page",
+      "metaphor": "Each observation leaves a second copy for handover.",
+      "personality": "Generous, systematic.",
+      "reason": "Translucency is incompatible with the one-ink stamp and obscures the geometry.",
+      "title": "Echo Page"
+    }
+  ],
+  "mode": "vector-first",
+  "mode_reason": "The primary job is a one-ink cover stamp with clean negative space. Native curves are directly editable.",
+  "references": [
+    {
+      "kind": "brief",
+      "observation": "One-ink stamp and mobile catalog are the main constraints.",
+      "rights": "Fictional source brief authored for this benchmark.",
+      "source": "brief.json"
+    },
+    {
+      "kind": "sketch",
+      "observation": "Explore open seams, index alignment and a route through a field without a pin silhouette.",
+      "rights": "Original benchmark work. No third-party visual inputs.",
+      "source": "Original notebook-margin and contour sketches developed for this benchmark"
+    }
+  ],
+  "schema_version": "0.2"
+}

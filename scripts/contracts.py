@@ -52,6 +52,7 @@ def check(value, schema, label):
             if isinstance(rule, dict):
                 check(child, rule, f"{label}.{key}")
     if isinstance(value, list):
+        require(len(value) <= schema.get("maxItems", len(value)), f"{label}: too many items")
         require(len(value) >= schema.get("minItems", 0), f"{label}: empty array")
         for i, child in enumerate(value):
             check(child, schema["items"], f"{label}[{i}]")
@@ -63,6 +64,7 @@ def check(value, schema, label):
                     f"{label}: invalid format")
     if type(value) is int:
         require(value >= schema.get("minimum", value), f"{label}: below minimum")
+        require(value <= schema.get("maximum", value), f"{label}: above maximum")
 
 
 def validate(name, data):

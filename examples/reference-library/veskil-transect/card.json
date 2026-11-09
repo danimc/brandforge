@@ -1,0 +1,18 @@
+{
+  "asset": {
+    "name": "logo.svg",
+    "sha256": "922b0226702a28c73eeb61679811934e7fc89bbb2a63bc9ea8af3a71c6c82ad3"
+  },
+  "id": "veskil-transect",
+  "industry": "stationery",
+  "mark_type": "abstract",
+  "observation": "Dos contornos Bézier definen un corredor abierto.",
+  "rights": "Diseño original creado para el ejemplo ficticio de Veskil. Referencia de estudio.",
+  "source": "BrandForge Veskil demo / examples/veskil-creative/creative/transect/r2/mark.svg",
+  "storage": "owned",
+  "techniques": [
+    "bezier",
+    "negative-space"
+  ],
+  "title": "Transect"
+}

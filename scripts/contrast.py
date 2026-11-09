@@ -7,7 +7,9 @@ MINIMUM = {"normal-text": 4.5, "large-text": 3, "essential-ui": 3, "logo-target"
 def luminance(color):
     channels = [int(color[i:i+2], 16) / 255 for i in (1, 3, 5)]
     linear = [v / 12.92 if v <= 0.04045 else ((v + 0.055) / 1.055) ** 2.4 for v in channels]
-    return sum(weight * v for weight, v in zip((0.2126, 0.7152, 0.0722), linear))
+    red, green, blue = linear
+    # Preserve the operation order across Python versions for review fingerprints.
+    return 0.2126 * red + 0.7152 * green + 0.0722 * blue
 
 
 def audit(tokens):

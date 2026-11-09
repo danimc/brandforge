@@ -1,0 +1,12 @@
+{
+  "name": "Veskil",
+  "slug": "veskil",
+  "category": "Fictional field notebooks for habitat surveys",
+  "audience": "Volunteer survey leads recording observations in wet, low-light conditions",
+  "positioning": "The field notebook that makes each observation easy to find and hand over.",
+  "promise": "Make a clear record at every stop.",
+  "evidence": ["Concept assumptions: indexed pages, high-contrast layout and a weather-tolerant cover"],
+  "voice": ["Direct", "Observant", "Calm"],
+  "applications": ["Single-ink cover stamp", "Mobile catalog tile", "Field instruction card"],
+  "constraints": ["Readable at small sizes", "Viable in one ink", "Fictional demonstration"]
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "mark.png": "afbe9717bbac77432edd798b8542a563bdd92220ad439efb378d60c133793da0",
+    "mark.svg": "b64e205fb08e1080a09da8974836633efa18e8a82c51d07962b2e452031f619b",
+    "technical.json": "427c158e06c8bc3d49723d2b866ab2f3ca024c55d0237f205e4d63dda8f1a089"
+  },
+  "inputs": {
+    "brief.json": "dcdeb3c5c1ebd536903a311a4e1e8278788c91769f6421aa52e90b242a00433a",
+    "grounds.json": "1927a1031590d8994eaa467d1835db92f8261fb89ce1ab0740b3051ba54d5741",
+    "iteration.json": "47387d22aaea7d1bf4b009996cf2153a5cd8e2c3203a6a4bc25d479910e7f355",
+    "mark.svg": "e92940420b59eee2828d358b00c6666740ce4e3a5e5568da575399c3f8abacff"
+  },
+  "kind": "proof",
+  "renderer": "rsvg-convert version 2.62.1\n\nlibraries used:\n  cairo 1.18.4\n  pango 1.58.2\n  harfbuzz 14.5.0\n  fontconfig 2.18.3",
+  "schema_version": "0.2"
+}

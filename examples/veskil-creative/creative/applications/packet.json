@@ -1,0 +1,15 @@
+{
+  "files": {
+    "applications.png": "964df10655415520b5603398501101a493d4725ee25b3a9602b461064af8164c",
+    "applications.svg": "0c85dc3e4cc45fad32c68687b068c53c57f3e57f4e1823dcf60e3ae5c3e8299f"
+  },
+  "inputs": {
+    "context.json": "ca255ec77c0157bd0676fb5c8eb585d0923ed0db75250587b860756348194f71",
+    "lockup.svg": "4fe1667e8e8addda7068b4e182448b60957445262546f692f1bb0526ecdf3d0d",
+    "mark.svg": "922b0226702a28c73eeb61679811934e7fc89bbb2a63bc9ea8af3a71c6c82ad3",
+    "stacked.svg": "85a939eaba1d8d39cd824b1d10e7cb125b2e7dac782d127cd1b0727c758ba56b"
+  },
+  "kind": "applications",
+  "renderer": "rsvg-convert version 2.62.1\n\nlibraries used:\n  cairo 1.18.4\n  pango 1.58.2\n  harfbuzz 14.5.0\n  fontconfig 2.18.3",
+  "schema_version": "0.2"
+}

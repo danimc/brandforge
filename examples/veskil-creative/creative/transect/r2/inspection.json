@@ -1,0 +1,10 @@
+{
+  "composition": "The opening into the central pale corridor is wider. The compact lower mass gives the mark more weight without closing the upper gap. The horizontal lettering reads cleanly at 128 px. The stacked lockup shifts emphasis toward the mark.",
+  "decision": "ready",
+  "method": "Opened the r2 mark, horizontal, stacked and application PNGs at native dimensions and compared the mark with r1.",
+  "monochrome": "Both solid ink variants maintain the channel. The primary dark proof still loses the pine band by design; use the white variant over Pine Ink.",
+  "next_action": "Use mark at 24 px or larger, horizontal at 128 px and stacked at 64 px. Confirm one-ink reproduction on real stock before launch.",
+  "packet_sha256": "3364dce51f4f20fe14285b7290554947b64026b5c38fd60d0d875ca472dd60ef",
+  "reviewer": "Codex visual benchmark review",
+  "scale": "The silhouette reads as two bands at 16 px, with the reverse view appearing clearest. The horizontal wordmark is less legible at 32 px and the stacked lettering needs at least 64 px in this study. Use the symbol at tiny sizes."
+}
