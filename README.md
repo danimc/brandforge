@@ -2,9 +2,19 @@
 
 Brandforge is a Codex Agent Skill for developing a cohesive identity and releasing a verified brand kit. It compares original creative directions before assembling editable SVG variants, web tokens, brand guidelines and print specifications.
 
-## Use in Codex
+## Install and invoke
 
-Place this directory at `.agents/skills/brandforge` in the workspace. Invoke `$brandforge` with the brand’s audience, offer, constraints and priority applications. The agent asks for concept selection and final delivery approval at separate checkpoints. [Skill entrypoint](SKILL.md) · [Architecture and plan](PLAN.md) · [Upstream comparison and reuse](references/research.md)
+Copy the whole Brandforge directory to the host’s skill directory. The destination folder must be named `brandforge` and contain `SKILL.md` directly. Copy the scripts, schemas and references alongside it.
+
+| Host | Global install path | Invoke |
+| --- | --- | --- |
+| Codex | `~/.agents/skills/brandforge` | `$brandforge` |
+| Claude Code | `~/.claude/skills/brandforge` | `/brandforge` |
+| Google Antigravity App, CLI and IDE | `~/.gemini/config/skills/brandforge` | `/brandforge` in the App or CLI. In the IDE, check Customizations and ask for Brandforge by name. |
+
+Open a fresh session after installing. Refresh installed copies from the repository when upgrading. For project-scoped installs, place the folder under `.agents/skills/` for Codex and Antigravity or `.claude/skills/` for Claude Code. The Claude Code instructions are for local sessions. Claude Cowork and cloud sessions manage account skills separately. [Claude Code skill docs](https://code.claude.com/docs/en/skills) · [Antigravity skill docs](https://antigravity.google/docs/skills?app=antigravity)
+
+Start with the brand’s audience, offer, constraints and priority applications. Brandforge asks for concept selection and final delivery approval at separate checkpoints. [Skill entrypoint](SKILL.md) · [Architecture and plan](PLAN.md) · [Upstream comparison and reuse](references/research.md)
 
 Use Python 3.9 or later. The CLI and tests use only the standard library. The checks were run on Python 3.9.6 and 3.13.11. The demo review used librsvg 2.62.1 and Cairo 1.18.4. The bundled skill-creator validator ran separately with PyYAML 6.0.3.
 
