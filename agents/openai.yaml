@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brandforge"
+  short_description: "Design and validate complete brand identity kits"
+  default_prompt: "Use $brandforge to develop a brand identity from my brief."

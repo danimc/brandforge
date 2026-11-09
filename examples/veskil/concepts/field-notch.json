@@ -1,0 +1,12 @@
+{
+  "id": "field-notch",
+  "title": "Field Notch",
+  "rationale": "A split folio turns the act of indexing a record into a recognizable silhouette.",
+  "visual_system": "Two staggered green plates separated by a rising diagonal. Custom outlined VESKIL lettering. Warm paper with deep pine ink and rust accents.",
+  "tradeoffs": "The oblique seam needs a minimum size. The single-ink silhouette retains the seam through transparent space.",
+  "differentiation": "The brief excludes wildlife silhouettes, map pins and leaf motifs. This demo records design rationale only and has no market search.",
+  "provenance": [
+    "Original demo geometry authored for this project. No external design inputs.",
+    "field-notch.svg · SHA-256 1353f6ad6a12279fbacf3b8ec9a09fac58bd7af39bb06e09b12482ac63523507"
+  ]
+}

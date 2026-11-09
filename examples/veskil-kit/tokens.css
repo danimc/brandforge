@@ -1,0 +1,12 @@
+:root {
+  --brand-color-black: #000000;
+  --brand-color-ink: #12352B;
+  --brand-color-rust: #9D3D27;
+  --brand-color-spruce: #246B54;
+  --brand-color-surface: #F8F1E2;
+  --brand-color-white: #FFFFFF;
+  --brand-font-body: "Arial", sans-serif;
+  --brand-weight-body: 400;
+  --brand-font-display: "Georgia", serif;
+  --brand-weight-display: 700;
+}

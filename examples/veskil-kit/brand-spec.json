@@ -1,0 +1,13 @@
+{
+  "brief_sha256": "d813f45ae877bdfb4bde8d6aaede3d6d0d46917407956f0edfbed9ca15327d8d",
+  "concept_approval": {
+    "by": "Fictional Veskil reviewer",
+    "date": "2026-11-08",
+    "evidence": "Simulated selection of field-notch for the demo.",
+    "simulated": true
+  },
+  "concept_id": "field-notch",
+  "concept_sha256": "f7d64fcd3fdf2d34afde74465fd3b49aee610d5cee7745305e9ae4ce1089cf88",
+  "revision": 2,
+  "schema_version": "1.0"
+}

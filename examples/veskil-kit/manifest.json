@@ -1,0 +1,20 @@
+{
+  "files": {
+    "brand-spec.json": "58fbbf586fc4ea94e433e48f35a35940d59fbfb6bd1556e70f077da4a0754b0b",
+    "brief.json": "d813f45ae877bdfb4bde8d6aaede3d6d0d46917407956f0edfbed9ca15327d8d",
+    "concept.json": "f7d64fcd3fdf2d34afde74465fd3b49aee610d5cee7745305e9ae4ce1089cf88",
+    "contrast.json": "ae56620660e4d2a5932535c6ec1aebfed4c719089bbc145affe0f0cb6cb0fc6e",
+    "guidelines.md": "26fef4013d31304d4855e8b6fc2f15385c4ea80afb9ede213d620d2d03b29d5a",
+    "logos/lockup-ink.svg": "577318147abd075165347ee45f3b6816cd1f7120bece6d540158d3e96b3d4f27",
+    "logos/lockup-primary.svg": "a10a7251c00d47acc0a8b31654bd6ae1a34fc4a17ebfaea327a96fecb230c90a",
+    "logos/lockup-reverse.svg": "ce12e847121e825f85eabea6eb571942c5cc958f2268fb004ea4f8476677b222",
+    "logos/mark-ink.svg": "1353f6ad6a12279fbacf3b8ec9a09fac58bd7af39bb06e09b12482ac63523507",
+    "logos/mark-primary.svg": "d0d9e55f7833ee378c56b69d23ecf3d00d1d7249752f24e2792b6e09f77798a4",
+    "logos/mark-reverse.svg": "8b25e60b1c644692e03a3924f0516035f2e2bedc5939ea3c2db991e601691001",
+    "print.md": "678d283c8cb7feed141da6ec423aeeb0f860b61daf835c269b2f798851ed24e7",
+    "tokens.css": "8b15dc25fee5af926abf4e63d58665b523118f8291aac2d2a00f46d3af740a50",
+    "tokens.json": "80f677ff488221c97039526f1f6056f8a44c4078da915a42c6aaebd2e74c57d0",
+    "visual-review.md": "3dd9582bd056e64fcbd9c27c79a47b64ea01613030804272b0b7fea12b9376f1"
+  },
+  "schema_version": "1.0"
+}

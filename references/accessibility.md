@@ -1,0 +1,5 @@
+# Accessibility and visual QA
+
+Declare every intended opaque foreground/background role pair in tokens. Use WCAG 2.2 AA targets of 4.5 for normal text and 3 for qualifying large text and applicable essential UI boundaries or graphics. Treat the optional 3:1 logo target as a brand legibility target. Check the full-precision result before display rounding. Verify actual placement, neighboring surfaces, overlays and interaction states in context, including grayscale and color-vision differences. [W3C contrast minimum](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) · [W3C non-text contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
+
+Render primary, black and reversed marks against intended surfaces at minimum and typical sizes. Check contours, clipping, counters and legibility. Record renderer/version, sizes, backgrounds, observed result and unresolved production checks in visual-review.md. Evaluate reading order and alt text in actual applications.

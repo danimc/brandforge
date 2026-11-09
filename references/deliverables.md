@@ -1,0 +1,7 @@
+# Project and delivery contract
+
+Use the [schemas](../schemas/) for `brief.json` (brand-brief), each `concepts/<id>.json` (concept), `tokens.json` (design-tokens), `brand-spec.json` (brand-spec), and the generated manifest (output-manifest). Store brand spec snapshots in a revision directory or Git. Start with schema version, revision and brief digest. Add the concept ID, board digest and approval as a group when approved. Store important board choices in the concept record so the hash covers the presented direction. Keep linked visual previews in the versioned project and record their digests in the concept provenance when used for approval.
+
+An approval contains a person, ISO calendar date, evidence reference, and simulated flag. Use an explicit user response in real work and record a short reference, avoiding unnecessary private data. Hash the exact bytes via `fingerprint`. The review spec and release spec represent consecutive revisions. Final approval includes the review manifest hash. A final kit includes that exact manifest, reviewed files and the new release spec as an approval receipt.
+
+Required design inputs are `source/mark.svg`, `source/lockup.svg`, `guidelines.md`, `print.md` and `visual-review.md`. Guidelines cover the strategy, artwork usage, minimum sizes, clear space, typography, color roles, visual language, examples and misuse. Print notes document target production conditions and open checks. See the [fictional project](../examples/veskil/).

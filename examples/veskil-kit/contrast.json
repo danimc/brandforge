@@ -1,0 +1,42 @@
+[
+  {
+    "background": "surface",
+    "foreground": "ink",
+    "minimum": 4.5,
+    "pass": true,
+    "ratio": 11.89392214124977,
+    "usage": "normal-text"
+  },
+  {
+    "background": "surface",
+    "foreground": "rust",
+    "minimum": 4.5,
+    "pass": true,
+    "ratio": 5.964581436168403,
+    "usage": "normal-text"
+  },
+  {
+    "background": "surface",
+    "foreground": "spruce",
+    "minimum": 3,
+    "pass": true,
+    "ratio": 5.647605888036317,
+    "usage": "logo-target"
+  },
+  {
+    "background": "ink",
+    "foreground": "white",
+    "minimum": 3,
+    "pass": true,
+    "ratio": 13.377121388914327,
+    "usage": "logo-target"
+  },
+  {
+    "background": "surface",
+    "foreground": "black",
+    "minimum": 3,
+    "pass": true,
+    "ratio": 18.671607867237608,
+    "usage": "logo-target"
+  }
+]
